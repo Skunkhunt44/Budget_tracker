@@ -1,0 +1,24 @@
+GET http://localhost:5000
+
+
+
+
+
+###
+POST http://localhost:5000/auth/login
+
+###
+POST http://localhost:5000/auth/register
+content-Type:application/json
+
+{
+    "email":"yourstruly231@gmail.com",
+    "password":"32241"
+}
+
+###
+POST http://localhost:5000/auth/refresh-token
+
+###
+Delete http://localhost:5000/auth/logout
+
